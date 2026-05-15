@@ -1,0 +1,17 @@
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+	icon-theme: "Tela-circle-black-dark";
+
+    matching: "fuzzy";
+    sorting-method: "fzf";
+    normalize-match: true;
+    case-sensitive: false;
+    cycle: true;
+
+    drun-match-fields: "name,generic,exec,categories,keywords";
+    drun-display-format: "{name}";
+    terminal: "ghostty";
+}
+
+@theme "catppuccin-mocha-custom"
